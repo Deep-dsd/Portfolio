@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Heisenberg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts used in this page -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <p>&#60;devarya&#62;</p>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#services" class="nav_link">My Services</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">About Me</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#work" class="nav_link">My work</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+   
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section_title section_title-intro">
+            Hi, I am <strong class="strong">Arya Stark</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle-intro">Front-end Dev</p>
+        <img src="img/arya-stark-01.jpg" alt="A picture of Arya smiling" class="intro_img">
+    </section>
+
+    <!-- My services -->
+    <section class="my_services" id="services">
+        <h2 class="section_title section_title-services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente saepe iure perspiciatis. Hic ratione quas magnam nam maxime voluptatem?Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae unde ullam tenetur sint. Sapiente omnis itaque nostrum maiores ab. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolore illum, consectetur delectus sequi eligendi. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn"> See my work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section_title section_title-about">Who I am</h2>
+        <p class="section_subtitle section_subtitle-about">Designer & developer based out of Winterfell</p>
+        <div class="about-me_body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur distinctio id dolor, nihil porro ducimus tempora rerum, dolorum est hic nam mollitia exercitationem iusto deleniti?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequatur saepe vero odio nemo a, quae sunt, aspernatur sit, velit accusamus explicabo iste! Eveniet, ratione.</p>
+        </div>
+        <img src="img/arya-stark-02.jpg" alt="Arya is giving a cold stare" class="about-me_img">
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+        <h2 class="section_title section_title-work">My work</h2>
+        <p class="section_subtitle section_subtitle-work">A selection of my range of work</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio_img">
+            </a>
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio_img">
+            </a>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <a href="mailto:aryastark@gmail.com" class="footer-link">aryastark@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list_item"><a href="https://github.com/Deep-dsd" class="social-list_link"><i class="fa-brands fa-github"></i></a></li>
+            <li class="social-list_item"><a href="https://www.linkedin.com/feed/" class="social-list_link"><i class="fa-brands fa-linkedin"></i></a></li>
+
+            <li class="social-list_item"><a href="" class="social-list_link"><i class="fa-brands fa-facebook"></i></a></li>
+            
+            <li class="social-list_item"><a href="" class="social-list_link"><i class="fa-brands fa-youtube"></i></a></li>
+            
+        </ul>
+    </footer>
+</body>
+</html>
